@@ -1,0 +1,14 @@
+C:\Users\phili\IdeaProjects\TestReditVelocity\testredis-redisclient\src\main\java\be\kingquest\testredis\redis\connection\FriendPubSub.java
+C:\Users\phili\IdeaProjects\TestReditVelocity\testredis-redisclient\src\main\java\be\kingquest\testredis\redis\connection\RedisCache.java
+C:\Users\phili\IdeaProjects\TestReditVelocity\testredis-redisclient\src\main\java\be\kingquest\testredis\redis\connection\RedisConnection.java
+C:\Users\phili\IdeaProjects\TestReditVelocity\testredis-redisclient\src\main\java\be\kingquest\testredis\redis\connection\RedisPublisher.java
+C:\Users\phili\IdeaProjects\TestReditVelocity\testredis-redisclient\src\main\java\be\kingquest\testredis\redis\connection\RedisSubscriber.java
+C:\Users\phili\IdeaProjects\TestReditVelocity\testredis-redisclient\src\main\java\be\kingquest\testredis\redis\handler\CustomMessageHandler.java
+C:\Users\phili\IdeaProjects\TestReditVelocity\testredis-redisclient\src\main\java\be\kingquest\testredis\redis\handler\PacketHandler.java
+C:\Users\phili\IdeaProjects\TestReditVelocity\testredis-redisclient\src\main\java\be\kingquest\testredis\redis\packet\command\CommandPaket.java
+C:\Users\phili\IdeaProjects\TestReditVelocity\testredis-redisclient\src\main\java\be\kingquest\testredis\redis\packet\model\OnlinePlayerModel.java
+C:\Users\phili\IdeaProjects\TestReditVelocity\testredis-redisclient\src\main\java\be\kingquest\testredis\redis\packet\PacketContainer.java
+C:\Users\phili\IdeaProjects\TestReditVelocity\testredis-redisclient\src\main\java\be\kingquest\testredis\redis\packet\test\RedisTestPacket.java
+C:\Users\phili\IdeaProjects\TestReditVelocity\testredis-redisclient\src\main\java\be\kingquest\testredis\redis\packet\TestPacket.java
+C:\Users\phili\IdeaProjects\TestReditVelocity\testredis-redisclient\src\main\java\be\kingquest\testredis\redis\RedisClient.java
+C:\Users\phili\IdeaProjects\TestReditVelocity\testredis-redisclient\src\main\java\be\kingquest\testredis\redis\Synchronizer.java

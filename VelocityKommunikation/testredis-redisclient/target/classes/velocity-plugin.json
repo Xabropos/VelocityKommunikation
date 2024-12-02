@@ -1,0 +1,7 @@
+{
+  "id": "onlineplayer",
+  "name": "OnlinePlayer",
+  "version": "1.0",
+  "main": "be.kingquest.onlinePlayer.OnlinePlayer",
+  "authors": ["[KingQuest]"]
+}

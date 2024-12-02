@@ -1,0 +1,16 @@
+be\kingquest\testredis\redis\packet\model\OnlinePlayerModel.class
+be\kingquest\testredis\redis\connection\RedisPublisher.class
+be\kingquest\testredis\redis\packet\command\CommandPaket.class
+be\kingquest\testredis\redis\connection\FriendPubSub.class
+be\kingquest\testredis\redis\connection\RedisConnection.class
+be\kingquest\testredis\redis\packet\TestPacket.class
+be\kingquest\testredis\redis\connection\RedisSubscriber.class
+be\kingquest\testredis\redis\handler\CustomMessageHandler.class
+be\kingquest\testredis\redis\RedisClient.class
+be\kingquest\testredis\redis\packet\PacketContainer.class
+be\kingquest\testredis\redis\RedisClient$RedisKeys.class
+be\kingquest\testredis\redis\Synchronizer.class
+be\kingquest\testredis\redis\handler\PacketHandler.class
+be\kingquest\testredis\redis\packet\test\RedisTestPacket.class
+be\kingquest\testredis\redis\RedisClient$RedisClientBuilder.class
+be\kingquest\testredis\redis\connection\RedisCache.class

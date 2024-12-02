@@ -1,0 +1,7 @@
+{
+  "id": "velocitykommunikation",
+  "name": "VelocityKommunikation",
+  "version": "1.0",
+  "main": "be.kingquest.velocityKommunikation.VelocityKommunikation",
+  "authors": ["KingQuest"]
+}
