@@ -2,11 +2,10 @@ be\kingquest\velocityKommunikation\listener\PlayerConnectionListener.class
 be\kingquest\velocityKommunikation\redis\Manager.class
 be\kingquest\velocityKommunikation\redis\Manager$ManagerResponse.class
 be\kingquest\velocityKommunikation\redis\RedisManager.class
-be\kingquest\velocityKommunikation\redis\OnlinePlayerModel.class
 be\kingquest\velocityKommunikation\OnlinePlayers.class
 be\kingquest\velocityKommunikation\redis\RedisUtil.class
-be\kingquest\velocityKommunikation\redis\synchronizer\VelocitySynchronizer.class
 be\kingquest\velocityKommunikation\redis\RedisManager$RedisManagerConfig.class
 be\kingquest\velocityKommunikation\redis\Manager$ManagerConfig.class
 be\kingquest\velocityKommunikation\redis\RedisPublisher.class
+be\kingquest\velocityKommunikation\redis\OnlinePlayerManager.class
 be\kingquest\velocityKommunikation\VelocityKommunikation.class

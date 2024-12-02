@@ -1,9 +1,8 @@
 C:\Users\phili\IdeaProjects\VelocityKommunikation\src\main\java\be\kingquest\velocityKommunikation\listener\PlayerConnectionListener.java
 C:\Users\phili\IdeaProjects\VelocityKommunikation\src\main\java\be\kingquest\velocityKommunikation\OnlinePlayers.java
 C:\Users\phili\IdeaProjects\VelocityKommunikation\src\main\java\be\kingquest\velocityKommunikation\redis\Manager.java
-C:\Users\phili\IdeaProjects\VelocityKommunikation\src\main\java\be\kingquest\velocityKommunikation\redis\OnlinePlayerModel.java
+C:\Users\phili\IdeaProjects\VelocityKommunikation\src\main\java\be\kingquest\velocityKommunikation\redis\OnlinePlayerManager.java
 C:\Users\phili\IdeaProjects\VelocityKommunikation\src\main\java\be\kingquest\velocityKommunikation\redis\RedisManager.java
 C:\Users\phili\IdeaProjects\VelocityKommunikation\src\main\java\be\kingquest\velocityKommunikation\redis\RedisPublisher.java
 C:\Users\phili\IdeaProjects\VelocityKommunikation\src\main\java\be\kingquest\velocityKommunikation\redis\RedisUtil.java
-C:\Users\phili\IdeaProjects\VelocityKommunikation\src\main\java\be\kingquest\velocityKommunikation\redis\synchronizer\VelocitySynchronizer.java
 C:\Users\phili\IdeaProjects\VelocityKommunikation\src\main\java\be\kingquest\velocityKommunikation\VelocityKommunikation.java

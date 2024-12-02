@@ -1,6 +1,5 @@
 package be.kingquest.velocityKommunikation.redis;
 
-import be.kingquest.testredis.redis.RedisClient;
 import be.kingquest.velocityKommunikation.VelocityKommunikation;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -21,7 +20,6 @@ public abstract class Manager {
 
     @NotNull
     private RedisManager.RedisManagerConfig config;
-    private RedisClient redisClient;
 
     private static final Gson gson = new GsonBuilder().setPrettyPrinting().create();
     @Getter
@@ -84,38 +82,6 @@ public abstract class Manager {
     public void setPriority(int priority) {
         this.priority = priority;
         if (priority >= lowestPriority) lowestPriority = priority+1;
-    }
-
-    public static void loadManagers() {
-        loadManagers(null, null);
-    }
-
-    public static void loadManagers(Consumer<Manager> beforeLoad, Consumer<ManagerResponse> afterLoading) {
-        if (beforeLoad == null) beforeLoad = m -> {};  // Standard-Consumer für "do nothing"
-        if (afterLoading == null) afterLoading = r -> {};  // Standard-Consumer für "do nothing"
-
-        for (int i = 0; i < lowestPriority; i++) {
-            for (Manager m : managers.values()) {
-                if (m.getPriority() == i) {
-                    loadManager(m, beforeLoad, afterLoading);
-                }
-            }
-        }
-    }
-
-    public static void loadManager(Manager manager, Consumer<Manager> beforeLoad, Consumer<ManagerResponse> afterLoading) {
-        long before = System.currentTimeMillis();
-        try {
-            manager.log("Loading {}...", manager.getClass().getSimpleName());
-            beforeLoad.accept(manager);  // Keine Nullprüfung mehr nötig
-            manager.onLoad();
-
-            long time = System.currentTimeMillis() - before;
-            manager.log("{} loaded after {}ms.", manager.getClass().getSimpleName(), time);
-            afterLoading.accept(new ManagerResponse(manager, true, null, time));
-        } catch (Exception e) {
-            manager.log(Level.SEVERE, "Error while loading {}: {}", manager.getClass().getSimpleName(), e.toString());
-        }
     }
 
     public static void registerManager(Manager m) {
